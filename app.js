@@ -13,7 +13,7 @@ mongoose.connect(Url).then(() => {
     console.log("Connected to mongodb")
 
 
-    //Add Products 
+    //Add Products  
     app.post('/addProduct', (req, res) => {
 
         //validating requests
